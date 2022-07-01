@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="tuoiAnh"></h1>
+<h1 id="tuoiBo"></h1>
+<input id="tuoiEm" type="text"><br>
+<button onclick="tuoiAnhVaBo()"> tuoiANhvaBo</button>
+<script>
+    function  tuoiAnhVaBo() {
+        let tuoiEm=+document.getElementById('tuoiEm').value
+        let tuoiAnh=tuoiEm+3
+        let tuoiBo=tuoiAnh*6
+        document.getElementById('tuoiAnh').innerText="tuoiAnhla"+tuoiAnh
+        document.getElementById('tuoiBo').innerText="tuoiBo"+tuoiBo
+
+
+    }
+</script>
+
+
+
+
+
+
+</body>
+</html>
